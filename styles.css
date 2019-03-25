@@ -26,19 +26,6 @@ aside i {
   font-size: 28px;
 }
 
-header {
-  grid-area: header;
-  background-color: blue;
-  display: grid;
-  grid-template-columns: 225px 3fr;
-}
-
-.profile {
-  background-image: url('./assets/Pemba.png');
-  background-size: cover;
-  background-position: center;
-}
-
 main {
   display: grid;
   grid-area: main;
@@ -102,44 +89,52 @@ h3 {
 .goals {
   background-color: #1a202c;
 }
-/* 
-.goals div {
-  border-left: solid 15px #047ec9;
-} */
 
 .all-goals {
   display: grid;
   grid-template-rows: 130px 130px 130px;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
-/* 
+
+.add {
+  height: 29px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .goals p {
-  border-left: solid 16px #047ec9;
-  margin-bottom: 0;
+  margin: 0;
+  border-left: solid 30px #047ec9;
   font-style: italic;
   background-color: #252525;
-  color: #646464;
-  height: 32px;
+  color: #868585;;
+  height: 33px;
   padding-left: 15px;
   padding-top: 5px;
-} */
+}
 
 .goals h4 {
   display: inline;
+  margin-left: 21px;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .run-goal {
   display: flex;
+  background-color: #d9d9d9;
+  align-items: center;
+  border-left: solid 30px #047ec9;
+  padding: 10px;
+  position: relative;
 }
 
 .goals h2 {
   color: #28324a;
   font-family: "Barlow Condensed";
   font-weight: 500;
+  margin-bottom: 25px;
 }
-/* 
-.run-goal {
-  background-color: #d9d9d9;
-  display: flex;
-  align-items: center;
-} */
