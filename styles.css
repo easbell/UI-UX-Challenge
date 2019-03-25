@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  display: grid;
+  height: 99vh;
+  grid-template-areas:  "aside header"
+                        "aside main";
+  grid-template-rows: 250px 1fr;
+  grid-template-columns: .15fr 2fr;
+}
+
+aside {
+  grid-area: aside;
+  background-color: red;
+}
+
+header {
+  grid-area: header;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 200px 3fr;
+}
+
+.profile {
+  background-image: url('./assets/Pemba.png');
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: grid;
+  grid-area: main;
+  background-color: green;
+  grid-template-columns: 200px 1fr .8fr;
+}
+
+.summary {
+  background-color: pink;
+  display: inline-block;
+}
+
+.calendar {
+  background-color: gray;
+  display: inline-block;
+}
+
+.goals {
+  background-color: white;
+  display: inline-block;
+}
