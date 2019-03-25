@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box
+}
+
+header {
+  grid-area: header;
+  background-color: #bbdd00;
+  display: grid;
+  grid-template-columns: 225px 3fr;
+}
+
+.profile {
+  background-image: url('./assets/Pemba.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.log-sect {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+}
+
+.fa-dumbbell,
+.fa-running,
+.fa-bicycle {
+  font-size: 4em;
+}
+
+.percent-article {
+  background-color:black;
+  border-radius:  50%;
+  height: 150px;
+  width: 150px;
+}
+
+.circle-num,
+.circle-word,
+.circle-percent {
+ color:white
+}
+
+.circle-num {
+  font-size: 50px;
+}
+
+
+.circle-word,
+.circle-percent {
+  font-size: 25%; 
+
+}
+
+.log-word {
+  font-family: “Barlow Condensed”;
+  font-weight: 500;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
